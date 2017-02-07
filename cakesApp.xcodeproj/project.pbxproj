@@ -14,6 +14,14 @@
 		5D8FD3201E49CAE900349790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D8FD31E1E49CAE900349790 /* LaunchScreen.storyboard */; };
 		5D8FD32B1E49CAE900349790 /* cakesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8FD32A1E49CAE900349790 /* cakesAppTests.swift */; };
 		5D8FD3361E49CAE900349790 /* cakesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8FD3351E49CAE900349790 /* cakesAppUITests.swift */; };
+		5D8FD3441E49CE3600349790 /* CALoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8FD3431E49CE3600349790 /* CALoginPageViewController.swift */; };
+		5DFAC1C81E4A09E200E5A25B /* CASignupPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAC1C71E4A09E200E5A25B /* CASignupPageViewController.swift */; };
+		5DFAC1CA1E4A105F00E5A25B /* CAHomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAC1C91E4A105F00E5A25B /* CAHomepageViewController.swift */; };
+		5DFAC1CD1E4A125A00E5A25B /* Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFAC1CC1E4A125A00E5A25B /* Delete.png */; };
+		5DFAC1CF1E4A1C8800E5A25B /* TabbarHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAC1CE1E4A1C8800E5A25B /* TabbarHomeViewController.swift */; };
+		5DFAC1D11E4A1CA400E5A25B /* TabbarWishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAC1D01E4A1CA400E5A25B /* TabbarWishViewController.swift */; };
+		5DFAC1D31E4A1CBD00E5A25B /* TabbarCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAC1D21E4A1CBD00E5A25B /* TabbarCartViewController.swift */; };
+		5DFAC1D51E4A1CCC00E5A25B /* TabbarAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFAC1D41E4A1CCC00E5A25B /* TabbarAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		5D8FD3311E49CAE900349790 /* cakesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cakesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8FD3351E49CAE900349790 /* cakesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cakesAppUITests.swift; sourceTree = "<group>"; };
 		5D8FD3371E49CAE900349790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8FD3431E49CE3600349790 /* CALoginPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALoginPageViewController.swift; sourceTree = "<group>"; };
+		5DFAC1C71E4A09E200E5A25B /* CASignupPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignupPageViewController.swift; sourceTree = "<group>"; };
+		5DFAC1C91E4A105F00E5A25B /* CAHomepageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAHomepageViewController.swift; sourceTree = "<group>"; };
+		5DFAC1CC1E4A125A00E5A25B /* Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Delete.png; sourceTree = "<group>"; };
+		5DFAC1CE1E4A1C8800E5A25B /* TabbarHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarHomeViewController.swift; sourceTree = "<group>"; };
+		5DFAC1D01E4A1CA400E5A25B /* TabbarWishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarWishViewController.swift; sourceTree = "<group>"; };
+		5DFAC1D21E4A1CBD00E5A25B /* TabbarCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarCartViewController.swift; sourceTree = "<group>"; };
+		5DFAC1D41E4A1CCC00E5A25B /* TabbarAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,14 @@
 			children = (
 				5D8FD3151E49CAE900349790 /* AppDelegate.swift */,
 				5D8FD3171E49CAE900349790 /* ViewController.swift */,
+				5D8FD3431E49CE3600349790 /* CALoginPageViewController.swift */,
+				5DFAC1C71E4A09E200E5A25B /* CASignupPageViewController.swift */,
+				5DFAC1C91E4A105F00E5A25B /* CAHomepageViewController.swift */,
+				5DFAC1CE1E4A1C8800E5A25B /* TabbarHomeViewController.swift */,
+				5DFAC1D01E4A1CA400E5A25B /* TabbarWishViewController.swift */,
+				5DFAC1D21E4A1CBD00E5A25B /* TabbarCartViewController.swift */,
+				5DFAC1D41E4A1CCC00E5A25B /* TabbarAccountViewController.swift */,
+				5DFAC1CC1E4A125A00E5A25B /* Delete.png */,
 				5D8FD3191E49CAE900349790 /* Main.storyboard */,
 				5D8FD31C1E49CAE900349790 /* Assets.xcassets */,
 				5D8FD31E1E49CAE900349790 /* LaunchScreen.storyboard */,
@@ -193,6 +217,7 @@
 				TargetAttributes = {
 					5D8FD3111E49CAE900349790 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 59US3NUF7X;
 						ProvisioningStyle = Automatic;
 					};
 					5D8FD3251E49CAE900349790 = {
@@ -232,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DFAC1CD1E4A125A00E5A25B /* Delete.png in Resources */,
 				5D8FD3201E49CAE900349790 /* LaunchScreen.storyboard in Resources */,
 				5D8FD31D1E49CAE900349790 /* Assets.xcassets in Resources */,
 				5D8FD31B1E49CAE900349790 /* Main.storyboard in Resources */,
@@ -260,7 +286,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D8FD3181E49CAE900349790 /* ViewController.swift in Sources */,
+				5DFAC1D11E4A1CA400E5A25B /* TabbarWishViewController.swift in Sources */,
+				5DFAC1D51E4A1CCC00E5A25B /* TabbarAccountViewController.swift in Sources */,
+				5DFAC1CA1E4A105F00E5A25B /* CAHomepageViewController.swift in Sources */,
 				5D8FD3161E49CAE900349790 /* AppDelegate.swift in Sources */,
+				5DFAC1CF1E4A1C8800E5A25B /* TabbarHomeViewController.swift in Sources */,
+				5DFAC1C81E4A09E200E5A25B /* CASignupPageViewController.swift in Sources */,
+				5DFAC1D31E4A1CBD00E5A25B /* TabbarCartViewController.swift in Sources */,
+				5D8FD3441E49CE3600349790 /* CALoginPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59US3NUF7X;
 				INFOPLIST_FILE = cakesApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.cakesApp;
@@ -426,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59US3NUF7X;
 				INFOPLIST_FILE = cakesApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.cakesApp;
@@ -507,6 +542,7 @@
 				5D8FD33C1E49CAE900349790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D8FD33D1E49CAE900349790 /* Build configuration list for PBXNativeTarget "cakesAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +551,7 @@
 				5D8FD33F1E49CAE900349790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D8FD3401E49CAE900349790 /* Build configuration list for PBXNativeTarget "cakesAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +560,7 @@
 				5D8FD3421E49CAE900349790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
